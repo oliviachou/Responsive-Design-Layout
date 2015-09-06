@@ -1,0 +1,134 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Merriweather', serif;
+  background: url("../image/background-min.jpg");
+  background-size: cover;
+  color: #fff;
+}
+
+/* Header */
+.header img{
+    height: 30px;
+}
+.header{
+  padding-top: 10px ; 
+}
+.header ul li {
+    list-style: none;
+    display: inline-block;
+    padding: 5px 10px;
+    padding-right:15px;
+    font-size:14px;
+}
+.header ul li a {
+    color:#fff;
+    text-decoration:none;
+    font-weight: 700;
+}
+.header a:hover{
+    opacity: 0.5;
+}
+/*nav*/
+/* CSS Document */
+nav { 
+	margin: 50px 0;
+	background-color: #24DCAC;
+     border-radius: 5px;
+}
+
+nav ul {
+	padding:0;
+	margin:0;
+	list-style: none;
+	position: relative;
+        
+	}
+	
+nav ul li {
+	display:inline-block;
+	background-color: #24DCAC;
+	}
+
+nav a {
+	display:block;
+	padding:0 10px;	
+	color:#FFF;
+	font-size:20px;
+	line-height: 60px;
+	text-decoration:none;
+}
+
+nav a:hover { 
+	background-color: #000000; 
+}
+
+/* Hide Dropdowns by Default */
+nav ul ul {
+	display: none;
+	position: absolute; 
+	top: 60px;
+
+}
+	
+/* Display Dropdowns on Hover */
+nav ul li:hover > ul {
+	display:inherit;
+}
+	
+/* Fisrt Tier Dropdown */
+nav ul ul li {
+	width:170px;
+	float:none;
+	display:list-item;
+	position: relative;
+}
+
+/* Second, Third and more Tiers	*/
+nav ul ul ul li {
+	position: relative;
+	top:-60px; 
+	left:170px;
+}
+
+	
+/* Change this in order to change the Dropdown symbol */
+li > a:after { content:  '+'; }
+li > a:only-child:after { content: ''; }
+
+/*end nav*/
+
+
+/* Jumbotron */
+.jumbotron {
+  position: relative;
+  top: 50px;
+  text-shadow: 0 2px 3px rgba(0,0,0,.4);
+  background-color: transparent;
+}
+.jumbotron h1{
+    color: #fff;
+    text-align: center; 
+}
+/* Supporting */
+.supporting {
+  margin-top: 40px;
+  text-shadow: 0 2px 3px rgba(0,0,0,.4);
+  text-align:center;
+}
+.supporting img {
+    height: 120px;  
+  }
+.btn{
+      background: rgba(0,255,188,0.5);
+      margin-top: 100px;
+      margin-bottom: 60px;
+      padding:10px 50px;
+      border-radius:7px;
+      font-size: 18px;
+  }
+.btn:hover{
+    opacity: 0.5;
+}
+
+ 
